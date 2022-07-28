@@ -18,12 +18,12 @@ Received data: drop.
 
 ### Server 
 
-python network_server -i 0.0.0.0 -p 5678 -f udp  
+python3 server.py -i 0.0.0.0 -p 5678 -f udp  
 Listening UDP on 0.0.0.0:5678   
 Accepted connection from: 192.168.1.12  
 Received data: CSIntern2020_tarik  
 
-python network_server -i 192.168.1.10 -p 1111 -f tcp  
+python3 server.py -i 192.168.1.10 -p 1111 -f tcp  
 Listening TCP on 192.168.1.10:1111   
 Accepted connection from: 192.168.1.12   
 Received data: CSIntern2020_tarik   
