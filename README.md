@@ -6,10 +6,10 @@ it includes some file like CSIntern that doesnt matter.
 
 ### Client
 
-python3 client.py -h 192.168.1.10 -p 5678 -d CSIntern2022 -f tcp \n
-Connected to server: 192.168.1.10:5678
-Send data: CSIntern2020
-Received data: ok.
+python3 client.py -h 192.168.1.10 -p 5678 -d CSIntern2022 -f tcp  
+Connected to server: 192.168.1.10:5678  
+Send data: CSIntern2020  
+Received data: ok.  
 
 python3 client.py -h 192.168.1.14 -p 5678 -d TestData1234 -f tcp \n
 Connected to server: 192.168.1.14:1234 \n
